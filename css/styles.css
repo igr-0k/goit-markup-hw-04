@@ -366,20 +366,17 @@ img {
   height: 100%;
   border-radius: 50%;
   background-color: var(--w-color);
+  color: var(--icon-color)
 }
 
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--accent-color);
-}
-
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon {
-  fill: var(--w-color);
+  color:var(--w-color)
 }
 
 .team-soc-icon {
-  fill: var(--icon-color);
+  fill: currentColor;
 }
 
 /* ------------Clients Section------------ */
