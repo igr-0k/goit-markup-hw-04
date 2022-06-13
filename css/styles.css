@@ -3,7 +3,9 @@
   --text-color: #757575;
   --title-color: #212121;
   --w-color: #fff;
+  --icon-color: #afb1b8;
 }
+
 /* 
 * {
   outline: 1px solid tomato;
@@ -366,14 +368,21 @@ img {
   background-color: var(--w-color);
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--accent-color);
+}
+
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
+  fill: var(--w-color);
+}
+
 .team-soc-icon {
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 
 /* ------------Clients Section------------ */
-
-.clients-section {
-}
 
 .clients-list {
   display: flex;
@@ -395,7 +404,7 @@ img {
   align-items: center;
   width: 100%;
   height: 100%;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
 
@@ -411,7 +420,7 @@ img {
 
 
 .clients-icon {
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 
 /* ----------------FOOTER---------------- */
