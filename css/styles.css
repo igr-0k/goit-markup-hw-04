@@ -159,15 +159,11 @@ img {
   color: var(--accent-color);
 }
 
-.header-contacts-link:hover .header-contacts-icon,
-.header-contacts-link:focus .header-contacts-icon {
-  fill: var(--accent-color);
-}
-
 .header-contacts-icon {
-  fill: var(--text-color);
+  fill: currentColor;
   margin-right: 10px;
 }
+
 /* -------------Hero Section------------- */
 
 .hero-section {
@@ -369,14 +365,14 @@ img {
   color: var(--icon-color)
 }
 
+.team-soc-icon {
+  fill: currentColor;
+}
+
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--accent-color);
   color:var(--w-color)
-}
-
-.team-soc-icon {
-  fill: currentColor;
 }
 
 /* ------------Clients Section------------ */
@@ -403,21 +399,16 @@ img {
   height: 100%;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
+  color: var(--icon-color);
+}
+
+.clients-icon {
+  fill: currentColor;
 }
 
 .clients-link:hover,
 .clients-link:focus {
   border: 1px solid var(--accent-color);
-}
-
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: var(--accent-color);
-}
-
-
-.clients-icon {
-  fill: var(--icon-color);
 }
 
 /* ----------------FOOTER---------------- */
