@@ -138,11 +138,12 @@ img {
 }
 
 .header-contacts-item:not(:first-child) {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .header-contacts-link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 25px 0;
   font-weight: 500;
   font-size: 14px;
@@ -159,9 +160,8 @@ img {
 }
 
 .header-contacts-icon {
-  width: 20px;
-  height: 20px;
   fill: var(--text-color);
+  margin-right: 10px;
 }
 /* -------------Hero Section------------- */
 
